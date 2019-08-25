@@ -86,3 +86,11 @@ em JavaScript, apenas seu domínio em lógica de programação.
 ### Git
 * Use o git. 👀
 * Escreva mensagens de commit úteis, porém compactas.
+
+# Avisos feitos pelo candidato
+Por algum motivo que eu não consegui descobrir, e aparenta ser um bug do Google Chrome, ao abrir o "index.html" pela primeira vez o chrome redimensionar o tamanho do html, dando uma espécie de "zoom". Porém, ao clicar no botão "ENVIAR" vocês receberam a mensagem pedida e a página irá voltar ao seu tamanho "real". Até tentei usar :after e :before, mas nada de sucesso. Por via de dúvidas, testei a página em outros navegadores (Microsoft Edge, Mozilla Firefox), e pude notar que o problema só acontece no Google Chrome, e por isso a minha suspeita
+de que seja um bug. Espero que isso não afete a minha avaliação.
+
+Além disso, decidi utilizar FlexBox apenas em alguns locais, para não deixar o código inteiramente baseado em Flex e mostrar que consigo mesclar o uso dos dois.	
+
+Gostaria de explicar que esses avisos também estão presente no início do "main.css", já que não estava explicito se eu poderia fazer isso ou não (modificar o "README.md" original). Sendo assim, este é o motivo pela qual essas informações acima estão em dois locais.
