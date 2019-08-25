@@ -1,0 +1,108 @@
+
+	
+/*
+####################################################################################################################################################
+### Por algum motivo que eu não consegui descobrir, e aparenta ser um bug do Google Chrome, ao abrir o "index.html" pela primeira vez o chrome  ####
+### redimensionar o tamanho do html, dando uma espécie de "zoom". Porém, ao clicar no botão "ENVIAR" vocês receberam a mensagem pedida e a 		####
+### página irá voltar ao seu tamanho "real". Até tentei usar :after e :before, mas nada de sucesso. Por via de dúvidas, testei a página em 		####
+### outros navegadores (Microsoft Edge, Mozilla Firefox), e pude notar que o problema só acontece no Google Chrome, e por isso a minha suspeita ####
+### de que seja um bug. Espero que isso não afete a minha avaliação.																			####
+###																																				####
+### Além disso, decidi utilizar FlexBox apenas em alguns locais, para não deixar o código inteiramente baseado em Flex e mostrar que consigo 	####
+###	mesclar o uso dos dois.																														####
+####################################################################################################################################################
+*/
+
+
+
+/* font-family: 'Cookie', cursive; */
+@import url('https://fonts.googleapis.com/css?family=Cookie&display=swap');
+
+/* font-family: 'Open Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100vh;
+	background-image: url('assets/04-BG.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header {
+	height: 80px;
+	background-color: #ACD0B6;
+	/*---FLEXBOX---*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*-------------*/
+
+}
+
+main {	
+	margin: 70px auto;
+	width: 417px; 
+}
+
+h1 {
+	margin: 10px 0;
+	text-align: center;
+    font-family: 'Cookie', cursive;
+    font-size: 71px;
+    font-weight: normal;
+    color: #E3EECD;
+} 
+
+form {
+	/*---FLEXBOX---*/
+	display: flex;
+	flex-direction: column;
+	/*-------------*/
+}
+
+input, textarea {
+	
+	margin: 13px 0;
+	padding: 13px 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: lighter;
+	color: #375B62;
+	border-style: none;
+	border-radius: 5px;
+}
+
+input::placeholder, textarea::placeholder{
+	color: #375B62;
+}
+
+input:focus, textarea:focus {
+	outline: none;
+}
+
+#button {
+	padding: 10px 20px;
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #71A397;
+	box-shadow: 0px 7px #4A8978;
+}
+
+#button:hover {
+	background-color: #679B8B;
+}
+
+#button:active {
+	margin-top: 16px;
+	background-color: #679B8B; 
+	box-shadow: 0px 3px #4A8978;
+}
+
+
